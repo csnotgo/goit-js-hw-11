@@ -77,6 +77,7 @@ async function addPage() {
       console.log(gallery.children.length);
       if (result.totalHits) {
         spiner.classList.add('is-hidden');
+
         // Notiflix.Notify.info(
         //   `We're sorry, but you've reached the end of search results.`
         // );
